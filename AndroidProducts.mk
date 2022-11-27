@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_begonia.mk
+    $(LOCAL_DIR)/cherish_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    cherish_begonia-user \
+    cherish_begonia-userdebug \
+    cherish_begonia-eng
