@@ -153,3 +153,6 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Inherit from the proprietary version
 include vendor/redmi/begonia/BoardConfigVendor.mk
+
+# Device properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
