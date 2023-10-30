@@ -500,7 +500,11 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     persist.dbg.wfc_avail_ovr=1 \
     ro.zram.mark_idle_delay_mins=60 \
     ro.zram.first_wb_delay_mins=1440 \
-    ro.zram.periodic_wb_delay_hours=2
+    ro.zram.periodic_wb_delay_hours=2 \
+    persist.vendor.ims.disableADBLogs=1 \
+    persist.vendor.ims.disableDebugLogs=1 \
+    persist.vendor.ims.disableIMSLogs=1 \
+    persist.vendor.ims.disableQXDMLogs=1
 
 # Colors
 PRODUCT_VENDOR_PROPERTIES += \
